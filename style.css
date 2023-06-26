@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 400px;
+    background-image: url('carpooling.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 12px 32px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cta-button:hover {
+    background-color: #c0392b;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .feature {
+    flex-basis: 30%;
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .feature-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-description {
+    color: #fff;
+  }
+  
+  .car-section {
+    margin-top: 60px;
+  }
+  
+  .car-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .hero-image {
+    background-image: url('https://www.bmw.com/content/dam/bmw/marketBMWCOM/bmw_com/categories/Innovation/yournow/yn-01-stage-hd.jpg');
+    
+  }
+  .car-image {
+      width: 200px;
+      height: 168px;
+      overflow: hidden;
+      border-radius: 50%;
+  }
+  
+  .car-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  footer {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
